@@ -1,0 +1,20 @@
+<!-- <ul>
+  <li *ngFor="let car of cars">{{car.carBrand + " " + car.carModel}}</li>
+</ul> -->
+<!-- container classı componentleri ortaladı. Row tek componetleri tek satırda birim sayısına göre hizaladı-->
+<div class="container">
+  <div class="row">
+    <app-navi></app-navi>
+  </div>
+  <div class="row">
+    <div class="col-md-12 ">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <app-footer></app-footer>
+    </div>
+  </div>
+
+</div>

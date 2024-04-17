@@ -79,17 +79,21 @@ export class CarComponent implements OnInit {
   getCars() {
     this.carDetailService.getAllCarDetails().subscribe((response) => {
       this.carDetails = response.data;
+      console.log(response)
     });
   }
   getCarsByBrand(brandId:number){
     this.carService.getCarsByBrand(brandId).subscribe(response=>{
       this.carDetails=response.data
+      console.log(this.carDetails)  
+      console.log(response) 
     })
     this.toastrService.success("Araçlar ilgili markaya göre filtrelendi.")
   };
   getCarsByColor(ColorId:number){
     this.carService.getCarsByColor(ColorId).subscribe(response=>{
       this.carDetails=response.data
+      console.log(response)
     })
     this.toastrService.success("Araçlar ilgili renge göre filtrelendi.")
   };

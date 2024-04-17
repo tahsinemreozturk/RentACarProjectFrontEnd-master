@@ -10,12 +10,12 @@ import { ResponseModel } from '../models/responseModel';
   providedIn: 'root',
 })
 export class CarService {
-  apiUrl = 'https://localhost:44355/api/:Cars/';
+  apiUrl = 'https://localhost:44355/api/Cars/';
   constructor(private httpClient: HttpClient) {}
 
-  getCars(): Observable<ListResponseModel<Car>> {
+  getCars(): Observable<ListResponseModel<CarDetail>> {
     let newPath = this.apiUrl + "GetAll";
-    return this.httpClient.get<ListResponseModel<Car>>(newPath);
+    return this.httpClient.get<ListResponseModel<CarDetail>>(newPath);
   }
   getCarsByBrand(brandId:number):Observable<ListResponseModel<CarDetail>>{
     let newPath= this.apiUrl + "GetCarsByBrandId?id="+brandId;

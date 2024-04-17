@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Car } from 'src/app/models/car';
 import { CarDetail } from 'src/app/models/car-detail';
 import { CarDetailService } from 'src/app/services/car-detail-service';
 
@@ -9,7 +10,7 @@ import { CarDetailService } from 'src/app/services/car-detail-service';
   styleUrls: ['./car-detail.component.css']
 })
 export class CarDetailComponent implements OnInit{
-
+  cars:Car[] = [];
   carDetails:CarDetail[]=[];
   baseUrl="https://localhost:44355/Uploads/Images/";
   constructor(private carDetailService:CarDetailService,
@@ -24,9 +25,11 @@ export class CarDetailComponent implements OnInit{
       }
     })
   }
+  
   getCarDetailsByCarId(carId:number){
     this.carDetailService.getCarDetailsByCarId(carId).subscribe(response=>{
       this.carDetails=response.data;
+      console.log(response)
     })
   }
 }

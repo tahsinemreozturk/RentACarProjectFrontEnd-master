@@ -13,8 +13,9 @@ export class CarDetailComponent implements OnInit{
   cars:Car[] = [];
   carDetails:CarDetail[]=[];
   baseUrl="https://localhost:44355/Uploads/Images/";
-  constructor(private carDetailService:CarDetailService,
-    private activatedRoute:ActivatedRoute){}
+  constructor(
+    private carDetailService:CarDetailService,
+    private activatedRoute:ActivatedRoute) {}
   ngOnInit(): void {
     this.activatedRoute.params.subscribe(params=>{
       if(params["carId"]){

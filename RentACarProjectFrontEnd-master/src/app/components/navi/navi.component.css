@@ -1,0 +1,33 @@
+.nav-link:hover {
+    color: #198754; /* Mouse üzerine gelindiğinde yazı rengi */
+  }
+  
+  .nav-link.active {
+    font-weight: bold; /* Aktif sayfa yazısının kalın olması */
+  }
+  
+
+  .navbar-toggler {
+    background-color: #fff; /* Buton arka plan rengi */
+    border-color: #fff; /* Buton kenarlık rengi */
+  }
+  
+  .navbar-toggler-icon {
+    color: #198754; /* Buton simgesi rengi */
+  }
+  .dropdown-menu {
+    background-color: #198754; /* Alt menü arka plan rengi */
+  }
+  
+  .dropdown-item {
+    color: #fff; /* Alt menü öğesi metin rengi */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #198754; /* Mouse üzerine gelindiğinde arka plan rengi */
+  }
+  .navbar-brand img {
+    max-height: 40px; /* Logo maksimum yükseklik */
+    width: auto; /* Genişliği otomatik ayarla */
+  }
+  

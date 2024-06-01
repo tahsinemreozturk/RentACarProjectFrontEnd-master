@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 baseUrl="https://localhost:44355/Uploads/Images/"
+imageName = "Homepagelogo.jpg"
   ngOnInit(): void {
     
   }

@@ -2,7 +2,7 @@
   list-group-flush kenar listenin kenarlıklarını kaldırır.
   margin kenar ayarlamaları için kullanılıyor.
  -->
-<div class="row">
+ <div class="row">
   <div class="col-md-2">
     <select class="form-select" [(ngModel)]="branddFilter">
       <option value="0" selected>Marka Seç</option>
@@ -34,7 +34,7 @@
   />
 </div>
 
-<div class="row mt-4" style="margin-left: 1%">
+<div class="row mt-4" style="margin-left: 5%">
   <div
     *ngFor="let car of carDetails | carFilter : carFilterText"
     class="card mt-2 mr-2"

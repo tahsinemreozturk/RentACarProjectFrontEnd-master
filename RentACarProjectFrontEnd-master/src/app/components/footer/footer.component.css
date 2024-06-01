@@ -1,11 +1,27 @@
-.footer {
-    text-align: justify;
-    background: black;
-    display: block;
-    color: white;
-    padding: 18px 45px;
-    text-decoration: none;
-}
-
-
-
+.footer-wrapper {
+    margin-bottom: 60px; /* Footer ile içeriğin arasına boşluk bırakır */
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #000000; /* Siyah arka plan */
+    color: #ffffff; /* Beyaz yazı rengi */
+    padding: 10px; /* Footer içerik kenar boşluğu */
+    text-align: center; /* İçerik ortalanır */
+  }
+  
+    
+  /* Renk geçişleri */
+  /* Yazı geçiş efekti */
+  .footer {
+    color: #fff; /* Başlangıç rengi */
+    transition: color 0.5s ease; /* Yazı rengi geçiş efekti */
+  }
+  
+  .footer:hover {
+    color: #198754; /* Hover olduğunda yeni renk */
+  }
+  

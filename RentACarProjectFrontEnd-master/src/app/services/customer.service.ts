@@ -8,7 +8,7 @@ import { ListResponseModel } from '../models/listResponseModel';
   providedIn: 'root'
 })
 export class CustomerService {
-  apiUrl="https://localhost:44387/api/Customers/GetAll";
+  apiUrl="https://localhost:44355/api/Customers/GetAll";
   constructor(private httpClient:HttpClient) { }
 
   getCustomers():Observable<ListResponseModel<Customer>>{

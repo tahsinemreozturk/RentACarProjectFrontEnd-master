@@ -13,7 +13,7 @@ export class RentalService {
   constructor(private httpClient:HttpClient) { }
 
   getRentals():Observable<ListResponseModel<Rental>>{
-    return this.httpClient.get<ListResponseModel<Rental>>(this.apiUrl+"getrentaldetail");
+    return this.httpClient.get<ListResponseModel<Rental>>(this.apiUrl+"GetAll");
   }
   IsCarAvaible(carId:number):Observable<ResponseModel>{
     let newPath = this.apiUrl +"iscaravaible";

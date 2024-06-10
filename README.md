@@ -1,5 +1,6 @@
 ## Bu proje [ReCapProject2](https://github.com/tahsinemreozturk/ReCapProject2) reposunda backend kısmı bulunan projenin frontend kısmıdır.
-## Angular kullanılarak geliştirilmiştir.
+
+## Angular kullanılarak geliştirilmiştir. Projenin ilk yapısı [northwind2-master](https://github.com/tahsinemreozturk/northwind2-master) reposunda oluşturulmuştur.
 <div style="border-radius: 20px; overflow: hidden;">
     <img src="https://github.com/tahsinemreozturk/RentACarProjectFrontEnd-master/assets/125802474/632ebc30-a4ff-4de4-8ca8-336f5201ff36" alt="Angular kullanılarak geliştirilmiştir" width="400" />
 </div>

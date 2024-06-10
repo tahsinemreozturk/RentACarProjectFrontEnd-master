@@ -29,9 +29,6 @@
   <div style="border-radius: 20px; overflow: hidden;">
     <img src="https://github.com/tahsinemreozturk/RentACarProjectFrontEnd-master/assets/125802474/69534aaf-3788-485e-9585-9cb10022a9dc" alt="AracDetaySayfası" width="500" />
   </div>
-  <div style="border-radius: 20px; overflow: hidden;">
-    <img src="https://github.com/tahsinemreozturk/RentACarProjectFrontEnd-master/assets/125802474/bf06e0d9-e645-4044-afe7-e5a7e451b0f7" alt="SistemeRenkEkleme" width="500" />
-  </div>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
@@ -52,14 +49,6 @@
   </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <div style="border-radius: 20px; overflow: hidden;">
-    <img src="https://github.com/tahsinemreozturk/RentACarProjectFrontEnd-master/assets/125802474/0561a08f-b03c-47a0-94ab-eab4872a9b21" alt="Ekran görüntüsü 2024-06-02 104219" width="500" />
-  </div>
-  <div style="border-radius: 20px; overflow: hidden;">
-    <img src="https://github.com/tahsinemreozturk/RentACarProjectFrontEnd-master/assets/125802474/960004f4-9244-4a7f-92b5-3ba1858e98bc" alt="SistemeAracEklemeSayfası" width="500" />
-  </div>
-</div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
   <div style="border-radius: 20px; overflow: hidden;">
